@@ -1,0 +1,98 @@
+@font-face{
+    font-family: "game-of-thrones";
+    src: url("fonts/Game\ of\ Thrones.ttf");
+    font-weight: 600;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+.main__container{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.section__container--ikons {
+    background-image: url("site/mapblue.jpg");
+    background-repeat: no-repeat;
+    display: flex;
+    position: absolute;
+    left: 0;
+    min-width: 75vw;
+    min-height: 100vh;
+}
+
+.aside__container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    background-color: #444;
+    min-width: 25vw;
+    min-height: 100vh;
+}
+
+.aside__tittle {
+    color: #DDD;
+    font-family: "game-of-thrones";
+    font-size: 1.3rem;
+    margin: 20px auto;
+}
+
+.aside__footer{
+    bottom: 10px;
+    display: flex;
+    margin: 20px 5px 10px 10px;
+    position: absolute;
+    right: 0;
+}
+
+.aside__button--close{
+    background-color: #444;
+    border: 1px solid #DDD;
+    color: #DDD;
+    font-weight: 700;
+    justify-content: left;
+    line-height: 1.2rem;
+    margin-right: 40px;
+    text-align: start;
+    width: 1.2rem;
+}
+
+.aside__button--close:hover{
+    cursor: pointer;
+}
+
+.footer__container--form {
+    justify-content: right;
+    text-align: right;
+}
+
+
+.input__button-search{
+    min-width: 10%;
+    line-height: 1.2rem;
+    text-decoration: none;
+}
+
+.input__button-search:hover{
+    cursor: pointer;
+}
+
+.aside__input{
+    min-width: 40%;
+    line-height: 1.2rem;
+    margin-right: 20px;
+    position: relative;
+}
